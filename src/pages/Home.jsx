@@ -1,3 +1,4 @@
+
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 
@@ -13,7 +14,7 @@ const Home = () => {
 
   const [currentStage, setCurrentStage] = useState(1);
   const [isRotating, setIsRotating] = useState(false);
-  const [isPlayingMusic, setIsPlayingMusic] = useState(false);
+  const [isPlayingMusic, setIsPlayingMusic] = useState(true); // Set default state to true
 
   useEffect(() => {
     if (isPlayingMusic) {
@@ -117,3 +118,5 @@ const Home = () => {
 };
 
 export default Home;
+
+
