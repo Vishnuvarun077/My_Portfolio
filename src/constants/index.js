@@ -1,6 +1,6 @@
 
 
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla,datascience } from "../assets/images";
 import {
     Aora,
     ta,
@@ -124,7 +124,7 @@ export const experiences = [
     {
         title: "Data Science Experience Program Participant",
         company_name: "Finlatics",
-        icon: shopify,
+        icon: datascience,
         iconBg: "#b7e4c7",
         date: "2024",
         points: [
